@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #444549;
+    color: #ff1281;
+    
+}
+
+nav {
+    background: #000000;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 28px;
+}
+
+
+nav h2 {
+    color: #ffee06;
+}
+
+nav a {
+    color: #fffffe;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+.container {
+    max-width: 800px;
+    margin: 28px auto;
+}
+
+.card {
+    background: #000000;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.rating-group {
+    margin-bottom: 15px;
+}
+
+.stars span {
+    font-size: 26px;
+    cursor: pointer;
+    color: #babdb7;
+}
+
+.star.selected {
+    color: #facc15;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.session-card {
+    background: #000308;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.score {
+    color: #e4f500;
+    font-weight: bold;
+}
